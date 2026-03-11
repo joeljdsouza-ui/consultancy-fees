@@ -1,0 +1,33 @@
+json{
+  "name": "joel-pricing",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version"]
+  }
+}
+Click Commit new file (green button at bottom).
+
+File 2: public/index.html
+Click Add file → Create new file → name it public/index.html → paste this:
+html<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joel Dsouza — Engagement & Pricing</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
